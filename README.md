@@ -93,9 +93,9 @@ For each pipeline deployed on elestio will create a cname for it. but if you wan
 
 After it is deployed you can go to these links and start developing
 
-- http://localhost:3000/docs/ : browse the website 
-- http://localhost:3000/admin : connect to Tina Cloud and go in edit mode
-- http://localhost:3000/exit-admin : log out of Tina Cloud
+- /docs/ : browse the website 
+- /admin : connect to Tina Cloud and go in edit mode
+- /exit-admin : log out of Tina Cloud
 
 
 -   Visit the [documentation](https://tina.io/docs/) to learn about Tina.
