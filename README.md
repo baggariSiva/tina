@@ -2,6 +2,26 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/tina"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+
+# TinaCMS!
+
+This is a very basic example of a simple TinaCMS app.
+
+
+Clone this [elestio-examples/tina](https://github.com/elestio-examples/tina) 
+
+```
+git clone https://github.com/elestio-examples/tina.git
+```
+Change into project directory.
+
+```
+yarn install
+yarn dev
+```
+
+This starts your app in development mode, make the changes and push.
+
 This Next.js starter is powered by TinaCMS and based upon [Smooth Doc](https://github.com/lwz7512/next-smooth-doc) it allows you and your team to create beautiful docs powered by MDX.
 
 <img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
