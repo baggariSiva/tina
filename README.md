@@ -2,29 +2,38 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/tina"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple TinaCMS App.
 
-# TinaCMS!
+<img src="public\screenshot.png" alt="screenshot of the TinaCMS app" width="100%" />
 
-This is a very basic example of a simple TinaCMS app.
+# Steps to clone this repository and run locally.
 
 
-Clone this [elestio-examples/tina](https://github.com/elestio-examples/tina) 
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/tina.git
 ```
-Change into project directory.
+### Step 2: Go to project folder.
+
+```
+cd tina
+```
+
+### Step 3: Install dependencies.
 
 ```
 yarn install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 yarn dev
 ```
 
-This starts your app in development mode, make the changes and push.
+### Step 5: Make some changes and push.
 
-This Next.js starter is powered by TinaCMS and based upon [Smooth Doc](https://github.com/lwz7512/next-smooth-doc) it allows you and your team to create beautiful docs powered by MDX.
-
-<img src="public\screenshot.png" alt="screenshot of the example app" width="100%" />
 
 ## CI/CD on Elestio
 
@@ -44,14 +53,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this TinaCMS Application Template, you can choose GitHub as your deployment method.
+But for this TinaCMS Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
 Select Clone in step at step Git Repository and select TinaCMS template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the tinaCMS repo otherwise you can directly insert a git repo URL to deploy the TinaCMS Application.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the tina repo otherwise you can directly insert a git repo URL to deploy the TinaCMS application.
 
 ### Step 4: Configuration
 
@@ -111,11 +120,4 @@ It will take a few seconds to deploy your pipeline on elestio.
 
 For each pipeline deployed on elestio will create a cname for it. but if you want your custom domain then you can configure it inside the target details.
 
-After it is deployed you can go to these links and start developing
-
-- /docs/ : browse the website 
-- /admin : connect to Tina Cloud and go in edit mode
-- /exit-admin : log out of Tina Cloud
-
-
--   Visit the [documentation](https://tina.io/docs/) to learn about Tina.
+After Pipeline is deployed you can able to view the app by visiting the pipeline domain.
