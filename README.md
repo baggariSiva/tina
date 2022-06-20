@@ -4,7 +4,7 @@ This is a minimal example of a TinaCMS site created using create-tina-app
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
-<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/tina"><img src=public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
+<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/tina"><img src="public\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
 <img src="public\screenshot.png" alt="screenshot of the TinaCMS app" width="100%" />
 
