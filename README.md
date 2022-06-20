@@ -1,6 +1,6 @@
-# TinaCMS on Elestio
+# Tina using create-tina-app on Elestio
 
-This is a minimal example of a TinaCMS site created using create-tina-app
+This is a minimal example of a TinaCMS app created using create-tina-app
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
